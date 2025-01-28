@@ -13,12 +13,10 @@ const CardDeal = () => (
         Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
         aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
       </p>
-
       <Button styles={`mt-10`} />
     </div>
-
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={card} alt="billing" className="w-full h-full"/>
     </div>
   </section>
 );
